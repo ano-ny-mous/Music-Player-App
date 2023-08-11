@@ -1,5 +1,15 @@
 # Music Player App
 
+The **Music Player App** is a simple Android application designed to allow users to explore and interact with a collection of songs and artists.
+
+## Screenshots
+
+<img src="https://github.com/ano-ny-mous/Music-Player-App/assets/91519560/3a8e7a68-2307-4fee-88a8-95553ce427f7" alt="Screenshot 1" width="300" >
+
+<img src="https://github.com/ano-ny-mous/Music-Player-App/assets/91519560/40f54aa4-05df-4e96-a8b6-b9cb294645ef" alt="Screenshot 1" width="300" >
+
+<img src="https://github.com/ano-ny-mous/Music-Player-App/assets/91519560/3d762db6-f6ce-4134-88aa-4175f87b8910" alt="Screenshot 1" width="300" >
+
 ## Features
 
 The app includes the following **features**:
