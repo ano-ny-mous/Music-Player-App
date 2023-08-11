@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/image"
+            android:id="@+id/imageview"
+            android:padding="2dp"
+            android:layout_margin="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dua Lipa"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="1dp"
+            android:paddingLeft="8dp"
+            android:id="@+id/textview2"
+            android:layout_toRightOf="@id/imageview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:F"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:layout_below="@id/textview2"
+            android:layout_toRightOf="@id/imageview"
+            android:id="@+id/textviewgender"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age:24"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:paddingTop="8dp"
+            android:paddingLeft="12dp"
+            android:layout_below="@id/textview2"
+            android:layout_toRightOf="@id/textviewgender"
+            android:id="@+id/textviewage"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:src="@drawable/play"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

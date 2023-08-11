@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#f0e6ff"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/allsongsbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="#a366ff"
+        android:fontFamily="sans-serif-black"
+        android:hint="All songs" />
+
+    <Button
+        android:id="@+id/artists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="#a366ff"
+        android:fontFamily="sans-serif-black"
+        android:hint="Artists" />
+
+</LinearLayout>
